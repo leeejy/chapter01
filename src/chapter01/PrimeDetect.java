@@ -11,7 +11,7 @@ public class PrimeDetect {
 		
 		//판단 알고리즘
 		for(int i=2;i<number;i++){
-			System.out.println(number+"/"+i+"="+(number%i));
+//			System.out.println(number+"/"+i+"="+(number%i));
 			if(number%i==0) {
 				prime=false;
 				break;
